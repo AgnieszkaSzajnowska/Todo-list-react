@@ -1,5 +1,4 @@
 # Todo-List-App
-
 1. Program written for training purpose. 
 2. This page allows to add tasks. A task list offers two options: marking tasks as complete (green square) or delete done tasks (red square). 
 3. Page is made in PL language.
