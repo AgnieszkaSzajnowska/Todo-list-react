@@ -22,7 +22,7 @@
     background-color: teal;
     color: white;
     border: none;
-    transition: 1s;
+    transition: 0,3s;
 }
 
 .form__button:hover {

@@ -6,8 +6,8 @@ import Header from "./Header";
 import Container from "./Container";
 
 const tasks = [
-  { id: 1, content: "kjfghdif", done: false },
-  { id: 2, content: "kjfgfgfgf", done: true },
+  { id: 1, content: "wypić kawę", done: false },
+  { id: 2, content: "iść do sklepu", done: true },
 ];
 const hideDoneTasks = false;
 

@@ -1,7 +1,7 @@
 .tasks {
     list-style: none;
-    padding: 20px;
     margin: 0;
+    padding: 0;
 }
 
 .tasks__item {
@@ -11,10 +11,15 @@
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid #ddd;
+    word-break: break-word;
 }
 
 .tasks__item--hidden {
     display: none;
+}
+
+.tasks__content--done {
+    text-decoration: line-through;
 }
 
 .tasks__button {
@@ -23,38 +28,29 @@
     width: 30px;
     height: 30px;
     padding: 0;
-    transition: 1s;
+    transition: color 0.3s;
 }
 
-.tasks__button--done {
-    background-color: green;
+.tasks__button--toggleDone {
+    background: hsl(120, 61%, 34%);
 }
 
-.tasks__button--done:hover {
-    background-color: rgb(2, 173, 2);
-    transition: 1s;
+.tasks__button--toggleDone:hover {
+    background: hsl(120, 61%, 39%);
 }
 
-.tasks__button--done:active {
-    background-color: rgba(3, 209, 3, 0.781);
-    transition: 1s;
-}
-
-.tasks__content--done {
-    text-decoration: line-through;
-    word-break: break-word;
+.tasks__button--toggleDone:active {
+    background: hsl(120, 61%, 44%);
 }
 
 .tasks__button--remove {
-    background-color: red;
+    background: hsl(348, 83%, 47%);
 }
 
 .tasks__button--remove:hover {
-    background-color: rgba(238, 37, 37, 0.644);
-    transition: 1s;
+    background: hsl(348, 83%, 52%);
 }
 
 .tasks__button--remove:active {
-    background-color: rgba(226, 52, 52, 0.863);
-    transition: 1s;
+    background: hsl(348, 83%, 57%);
 }
