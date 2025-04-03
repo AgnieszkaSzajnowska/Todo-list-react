@@ -7,6 +7,7 @@
 HTML, CSS, JavaScript, React
 
 ## Demo
+https://agnieszkaszajnowska.github.io/Todo-list-react/
 
 ## Visualization
 ![demo.png](https://i.postimg.cc/8CgC39vJ/demo.png)
