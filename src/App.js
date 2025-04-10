@@ -4,7 +4,7 @@ import Buttons from "./Buttons";
 import Section from "./Section";
 import Header from "./Header";
 import Container from "./Container";
-import { useTask } from "./useTask";
+import { useTasks } from "./useTask";
 import React, { useState } from 'react';
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
     toggleTaskDone,
     setAllDone,
     addNewTask,
-  } = useTask();
+  } = useTasks();
 
   return (
     <Container>
