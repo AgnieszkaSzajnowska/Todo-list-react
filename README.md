@@ -4,7 +4,7 @@
 3. Page is made in PL language.
 
 ## Technologies
-HTML, JavaScript, React
+HTML, JavaScript, React, styled-components
 
 ## Demo
 https://agnieszkaszajnowska.github.io/Todo-list-react/
