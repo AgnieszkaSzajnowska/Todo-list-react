@@ -5,10 +5,13 @@ import { GlobalStyle } from "./GlobalStyle";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { theme } from "./theme";
+import { Normalize } from "styled-normalize";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Normalize />
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <App />
