@@ -1,9 +1,12 @@
-export const getExampleTasks = async () => {
-  const response = await fetch("/Todo-list-react/exampleTasks.json");
+const EXAMPLE_TASKS_URL = "/Todo-list-react/exampleTasks.json";
 
-  if(!response.ok) {
-    new Error(response.statusText);
+const getExampleTasks = async () => {
+  const response = await fetch(EXAMPLE_TASKS_URL);
+
+  if (!response.ok) {
+    throw new Error(response.statusText);
   }
-
   return await response.json();
 };
+
+export default getExampleTasks;
