@@ -10,7 +10,7 @@ HTML, JavaScript, React, styled-components, Redux
 https://agnieszkaszajnowska.github.io/Todo-list-react/
 
 ## Visualization
-![demo.png](https://i.postimg.cc/8CgC39vJ/demo.png)
+![demo.png](https://i.postimg.cc/cHBQHB3v/Przechwytywanie.png)
 
 ## Getting Started with Create React App
 
